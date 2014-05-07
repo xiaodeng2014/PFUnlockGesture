@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDAD80A01918E2320089A8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD809F1918E2320089A8E5 /* Foundation.framework */; };
+		FDAD80A21918E2320089A8E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD80A11918E2320089A8E5 /* CoreGraphics.framework */; };
+		FDAD80A41918E2320089A8E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD80A31918E2320089A8E5 /* UIKit.framework */; };
+		FDAD80AA1918E2320089A8E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80A81918E2320089A8E5 /* InfoPlist.strings */; };
+		FDAD80AC1918E2320089A8E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80AB1918E2320089A8E5 /* main.m */; };
+		FDAD80B01918E2320089A8E5 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80AF1918E2320089A8E5 /* PFAppDelegate.m */; };
+		FDAD80B21918E2320089A8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80B11918E2320089A8E5 /* Images.xcassets */; };
+		FDAD80B91918E2320089A8E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD80B81918E2320089A8E5 /* XCTest.framework */; };
+		FDAD80BA1918E2330089A8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD809F1918E2320089A8E5 /* Foundation.framework */; };
+		FDAD80BB1918E2330089A8E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD80A31918E2320089A8E5 /* UIKit.framework */; };
+		FDAD80C31918E2330089A8E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80C11918E2330089A8E5 /* InfoPlist.strings */; };
+		FDAD80C51918E2330089A8E5 /* PFUnlockGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80C41918E2330089A8E5 /* PFUnlockGestureTests.m */; };
+		FDAD80D41918E2B70089A8E5 /* gesture_background.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80CF1918E2B70089A8E5 /* gesture_background.png */; };
+		FDAD80D51918E2B70089A8E5 /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80D01918E2B70089A8E5 /* gesture_node_normal.png */; };
+		FDAD80D61918E2B70089A8E5 /* gesture_node_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80D11918E2B70089A8E5 /* gesture_node_normal@2x.png */; };
+		FDAD80D71918E2B70089A8E5 /* gesture_node_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80D21918E2B70089A8E5 /* gesture_node_selected.png */; };
+		FDAD80D81918E2B70089A8E5 /* gesture_node_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD80D31918E2B70089A8E5 /* gesture_node_selected@2x.png */; };
+		FDAD80DB1918E3490089A8E5 /* PFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80DA1918E3490089A8E5 /* PFViewController.m */; };
+		FDAD80DE1918E5890089A8E5 /* PFUnlockGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80DD1918E5890089A8E5 /* PFUnlockGestureView.m */; };
+		FDAD80E11918E8DF0089A8E5 /* PFTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD80E01918E8DF0089A8E5 /* PFTouchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAD80BC1918E2330089A8E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAD80941918E2320089A8E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAD809B1918E2320089A8E5;
+			remoteInfo = PFUnlockGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDAD809C1918E2320089A8E5 /* PFUnlockGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFUnlockGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAD809F1918E2320089A8E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDAD80A11918E2320089A8E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDAD80A31918E2320089A8E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDAD80A71918E2320089A8E5 /* PFUnlockGesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PFUnlockGesture-Info.plist"; sourceTree = "<group>"; };
+		FDAD80A91918E2320089A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDAD80AB1918E2320089A8E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDAD80AD1918E2320089A8E5 /* PFUnlockGesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFUnlockGesture-Prefix.pch"; sourceTree = "<group>"; };
+		FDAD80AE1918E2320089A8E5 /* PFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
+		FDAD80AF1918E2320089A8E5 /* PFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
+		FDAD80B11918E2320089A8E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDAD80B71918E2320089A8E5 /* PFUnlockGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PFUnlockGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAD80B81918E2320089A8E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDAD80C01918E2330089A8E5 /* PFUnlockGestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PFUnlockGestureTests-Info.plist"; sourceTree = "<group>"; };
+		FDAD80C21918E2330089A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDAD80C41918E2330089A8E5 /* PFUnlockGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFUnlockGestureTests.m; sourceTree = "<group>"; };
+		FDAD80CF1918E2B70089A8E5 /* gesture_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_background.png; sourceTree = "<group>"; };
+		FDAD80D01918E2B70089A8E5 /* gesture_node_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_normal.png; sourceTree = "<group>"; };
+		FDAD80D11918E2B70089A8E5 /* gesture_node_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_normal@2x.png"; sourceTree = "<group>"; };
+		FDAD80D21918E2B70089A8E5 /* gesture_node_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_selected.png; sourceTree = "<group>"; };
+		FDAD80D31918E2B70089A8E5 /* gesture_node_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_selected@2x.png"; sourceTree = "<group>"; };
+		FDAD80D91918E3490089A8E5 /* PFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFViewController.h; sourceTree = "<group>"; };
+		FDAD80DA1918E3490089A8E5 /* PFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFViewController.m; sourceTree = "<group>"; };
+		FDAD80DC1918E5890089A8E5 /* PFUnlockGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFUnlockGestureView.h; sourceTree = "<group>"; };
+		FDAD80DD1918E5890089A8E5 /* PFUnlockGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFUnlockGestureView.m; sourceTree = "<group>"; };
+		FDAD80DF1918E8DF0089A8E5 /* PFTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTouchView.h; sourceTree = "<group>"; };
+		FDAD80E01918E8DF0089A8E5 /* PFTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTouchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAD80991918E2320089A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80A21918E2320089A8E5 /* CoreGraphics.framework in Frameworks */,
+				FDAD80A41918E2320089A8E5 /* UIKit.framework in Frameworks */,
+				FDAD80A01918E2320089A8E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD80B41918E2320089A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80B91918E2320089A8E5 /* XCTest.framework in Frameworks */,
+				FDAD80BB1918E2330089A8E5 /* UIKit.framework in Frameworks */,
+				FDAD80BA1918E2330089A8E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDAD80931918E2320089A8E5 = {
+			isa = PBXGroup;
+			children = (
+				FDAD80A51918E2320089A8E5 /* PFUnlockGesture */,
+				FDAD80BE1918E2330089A8E5 /* PFUnlockGestureTests */,
+				FDAD809E1918E2320089A8E5 /* Frameworks */,
+				FDAD809D1918E2320089A8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAD809D1918E2320089A8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD809C1918E2320089A8E5 /* PFUnlockGesture.app */,
+				FDAD80B71918E2320089A8E5 /* PFUnlockGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAD809E1918E2320089A8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD809F1918E2320089A8E5 /* Foundation.framework */,
+				FDAD80A11918E2320089A8E5 /* CoreGraphics.framework */,
+				FDAD80A31918E2320089A8E5 /* UIKit.framework */,
+				FDAD80B81918E2320089A8E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDAD80A51918E2320089A8E5 /* PFUnlockGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD80CE1918E24D0089A8E5 /* PFUnlockGesture */,
+				FDAD80B11918E2320089A8E5 /* Images.xcassets */,
+				FDAD80A61918E2320089A8E5 /* Supporting Files */,
+				FDAD80AE1918E2320089A8E5 /* PFAppDelegate.h */,
+				FDAD80AF1918E2320089A8E5 /* PFAppDelegate.m */,
+				FDAD80D91918E3490089A8E5 /* PFViewController.h */,
+				FDAD80DA1918E3490089A8E5 /* PFViewController.m */,
+			);
+			path = PFUnlockGesture;
+			sourceTree = "<group>";
+		};
+		FDAD80A61918E2320089A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD80A71918E2320089A8E5 /* PFUnlockGesture-Info.plist */,
+				FDAD80A81918E2320089A8E5 /* InfoPlist.strings */,
+				FDAD80AB1918E2320089A8E5 /* main.m */,
+				FDAD80AD1918E2320089A8E5 /* PFUnlockGesture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAD80BE1918E2330089A8E5 /* PFUnlockGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD80C41918E2330089A8E5 /* PFUnlockGestureTests.m */,
+				FDAD80BF1918E2330089A8E5 /* Supporting Files */,
+			);
+			path = PFUnlockGestureTests;
+			sourceTree = "<group>";
+		};
+		FDAD80BF1918E2330089A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD80C01918E2330089A8E5 /* PFUnlockGestureTests-Info.plist */,
+				FDAD80C11918E2330089A8E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDAD80CE1918E24D0089A8E5 /* PFUnlockGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD80CF1918E2B70089A8E5 /* gesture_background.png */,
+				FDAD80D01918E2B70089A8E5 /* gesture_node_normal.png */,
+				FDAD80D11918E2B70089A8E5 /* gesture_node_normal@2x.png */,
+				FDAD80D21918E2B70089A8E5 /* gesture_node_selected.png */,
+				FDAD80D31918E2B70089A8E5 /* gesture_node_selected@2x.png */,
+				FDAD80DC1918E5890089A8E5 /* PFUnlockGestureView.h */,
+				FDAD80DD1918E5890089A8E5 /* PFUnlockGestureView.m */,
+				FDAD80DF1918E8DF0089A8E5 /* PFTouchView.h */,
+				FDAD80E01918E8DF0089A8E5 /* PFTouchView.m */,
+			);
+			path = PFUnlockGesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAD809B1918E2320089A8E5 /* PFUnlockGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAD80C81918E2330089A8E5 /* Build configuration list for PBXNativeTarget "PFUnlockGesture" */;
+			buildPhases = (
+				FDAD80981918E2320089A8E5 /* Sources */,
+				FDAD80991918E2320089A8E5 /* Frameworks */,
+				FDAD809A1918E2320089A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFUnlockGesture;
+			productName = PFUnlockGesture;
+			productReference = FDAD809C1918E2320089A8E5 /* PFUnlockGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAD80B61918E2320089A8E5 /* PFUnlockGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAD80CB1918E2330089A8E5 /* Build configuration list for PBXNativeTarget "PFUnlockGestureTests" */;
+			buildPhases = (
+				FDAD80B31918E2320089A8E5 /* Sources */,
+				FDAD80B41918E2320089A8E5 /* Frameworks */,
+				FDAD80B51918E2320089A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAD80BD1918E2330089A8E5 /* PBXTargetDependency */,
+			);
+			name = PFUnlockGestureTests;
+			productName = PFUnlockGestureTests;
+			productReference = FDAD80B71918E2320089A8E5 /* PFUnlockGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAD80941918E2320089A8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "银讯";
+				TargetAttributes = {
+					FDAD80B61918E2320089A8E5 = {
+						TestTargetID = FDAD809B1918E2320089A8E5;
+					};
+				};
+			};
+			buildConfigurationList = FDAD80971918E2320089A8E5 /* Build configuration list for PBXProject "PFUnlockGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDAD80931918E2320089A8E5;
+			productRefGroup = FDAD809D1918E2320089A8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAD809B1918E2320089A8E5 /* PFUnlockGesture */,
+				FDAD80B61918E2320089A8E5 /* PFUnlockGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAD809A1918E2320089A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80AA1918E2320089A8E5 /* InfoPlist.strings in Resources */,
+				FDAD80D61918E2B70089A8E5 /* gesture_node_normal@2x.png in Resources */,
+				FDAD80D41918E2B70089A8E5 /* gesture_background.png in Resources */,
+				FDAD80D81918E2B70089A8E5 /* gesture_node_selected@2x.png in Resources */,
+				FDAD80D51918E2B70089A8E5 /* gesture_node_normal.png in Resources */,
+				FDAD80D71918E2B70089A8E5 /* gesture_node_selected.png in Resources */,
+				FDAD80B21918E2320089A8E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD80B51918E2320089A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80C31918E2330089A8E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAD80981918E2320089A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80DE1918E5890089A8E5 /* PFUnlockGestureView.m in Sources */,
+				FDAD80B01918E2320089A8E5 /* PFAppDelegate.m in Sources */,
+				FDAD80DB1918E3490089A8E5 /* PFViewController.m in Sources */,
+				FDAD80E11918E8DF0089A8E5 /* PFTouchView.m in Sources */,
+				FDAD80AC1918E2320089A8E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD80B31918E2320089A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD80C51918E2330089A8E5 /* PFUnlockGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAD80BD1918E2330089A8E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAD809B1918E2320089A8E5 /* PFUnlockGesture */;
+			targetProxy = FDAD80BC1918E2330089A8E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAD80A81918E2320089A8E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAD80A91918E2320089A8E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDAD80C11918E2330089A8E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAD80C21918E2330089A8E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAD80C61918E2330089A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDAD80C71918E2330089A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAD80C91918E2330089A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFUnlockGesture/PFUnlockGesture-Prefix.pch";
+				INFOPLIST_FILE = "PFUnlockGesture/PFUnlockGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDAD80CA1918E2330089A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFUnlockGesture/PFUnlockGesture-Prefix.pch";
+				INFOPLIST_FILE = "PFUnlockGesture/PFUnlockGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDAD80CC1918E2330089A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PFUnlockGesture.app/PFUnlockGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFUnlockGesture/PFUnlockGesture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PFUnlockGestureTests/PFUnlockGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDAD80CD1918E2330089A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PFUnlockGesture.app/PFUnlockGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PFUnlockGesture/PFUnlockGesture-Prefix.pch";
+				INFOPLIST_FILE = "PFUnlockGestureTests/PFUnlockGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAD80971918E2320089A8E5 /* Build configuration list for PBXProject "PFUnlockGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD80C61918E2330089A8E5 /* Debug */,
+				FDAD80C71918E2330089A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAD80C81918E2330089A8E5 /* Build configuration list for PBXNativeTarget "PFUnlockGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD80C91918E2330089A8E5 /* Debug */,
+				FDAD80CA1918E2330089A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDAD80CB1918E2330089A8E5 /* Build configuration list for PBXNativeTarget "PFUnlockGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAD80CC1918E2330089A8E5 /* Debug */,
+				FDAD80CD1918E2330089A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAD80941918E2320089A8E5 /* Project object */;
+}
